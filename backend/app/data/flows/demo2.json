@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "DIGh_kYuKjKI_KPCdET6l",
+      "type": "processNode",
+      "position": {
+        "x": 870,
+        "y": 615
+      },
+      "data": {
+        "opNo": "DIGH",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 151,
+      "height": 54,
+      "selected": false,
+      "dragging": false,
+      "style": {
+        "width": 151,
+        "height": 54
+      },
+      "resizing": false,
+      "positionAbsolute": {
+        "x": 870,
+        "y": 615
+      }
+    },
+    {
+      "id": "zAyKh871nzqu6tk65qbGQ",
+      "type": "shapeNode",
+      "position": {
+        "x": 405,
+        "y": 735
+      },
+      "data": {
+        "shape": "square",
+        "label": "SQUARE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 170,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 405,
+        "y": 735
+      },
+      "dragging": false
+    },
+    {
+      "id": "9mHnhvesR_V5rp4zmZEFs",
+      "type": "shapeNode",
+      "position": {
+        "x": 345,
+        "y": 510
+      },
+      "data": {
+        "shape": "square",
+        "label": "SQUARE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 170,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 345,
+        "y": 510
+      },
+      "dragging": false
+    },
+    {
+      "id": "_A3YsUvpTi-Z41p1sUVON",
+      "type": "processNode",
+      "position": {
+        "x": 0,
+        "y": 510
+      },
+      "data": {
+        "opNo": "_A3Y",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 0,
+        "y": 510
+      },
+      "dragging": false
+    },
+    {
+      "id": "rXWfVj6ioY5o6GOo-q8fQ",
+      "type": "shapeNode",
+      "position": {
+        "x": -30,
+        "y": 660
+      },
+      "data": {
+        "shape": "square",
+        "label": "SQUARE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 170,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -30,
+        "y": 660
+      },
+      "dragging": false
+    },
+    {
+      "id": "OapIpPPZ_UDSWMjc61GCe",
+      "type": "iconNode",
+      "position": {
+        "x": 210,
+        "y": 300
+      },
+      "data": {
+        "icon": "warehouse",
+        "label": "warehouse",
+        "color": "#374151",
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 210,
+        "y": 300
+      },
+      "dragging": false
+    },
+    {
+      "id": "ZSwh5ToHEcimL5GZfUUWe",
+      "type": "shapeNode",
+      "position": {
+        "x": 135,
+        "y": 855
+      },
+      "data": {
+        "shape": "triangle",
+        "label": "TRIANGLE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 106,
+      "height": 98,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 135,
+        "y": 855
+      },
+      "dragging": false,
+      "style": {
+        "width": 106,
+        "height": 98
+      },
+      "resizing": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "smoothstep",
+      "source": "zAyKh871nzqu6tk65qbGQ",
+      "target": "9mHnhvesR_V5rp4zmZEFs",
+      "id": "Gb5X4hiD2Rv9FHI5JlBxy",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "9mHnhvesR_V5rp4zmZEFs",
+      "target": "zAyKh871nzqu6tk65qbGQ",
+      "id": "LKlM_CA72z6x-DZHp8XYN",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "rXWfVj6ioY5o6GOo-q8fQ",
+      "id": "LOsfFE7ZJ8ZYYthYiNmKW",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      },
+      "selected": false
+    },
+    {
+      "source": "OapIpPPZ_UDSWMjc61GCe",
+      "target": "_A3YsUvpTi-Z41p1sUVON",
+      "id": "t0w1N3XOxbVwVkJ-olaJZ",
+      "type": "smoothstep",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "9mHnhvesR_V5rp4zmZEFs",
+      "id": "P6zmkzl7xqiEc27401-5o",
+      "type": "smoothstep",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "source": "ZSwh5ToHEcimL5GZfUUWe",
+      "target": "ZSwh5ToHEcimL5GZfUUWe",
+      "id": "5YLy_JO54SalgMmcX5o0z",
+      "type": "smoothstep",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    }
+  ],
+  "meta": {
+    "formTitle": "İŞ AKIŞ ŞEMASI",
+    "partNo": "",
+    "formNo": "",
+    "docNo": "",
+    "publishDate": "",
+    "revDate": "",
+    "revNo": "",
+    "showForm": true
+  }
+}

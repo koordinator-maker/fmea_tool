@@ -1,0 +1,51 @@
+﻿html, body, #root { height: 100%; margin: 0; }
+.app-shell { display: grid; grid-template-columns: 240px 1fr 320px; grid-template-rows: 56px 1fr; height: 100%; }
+.app-shell.preview .left, .app-shell.preview .right, .app-shell.preview .toolbar { display: none; }
+.app-shell.preview { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+
+.toolbar { grid-column: 1 / 4; display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid #e5e7eb; background: #f9fafb; }
+.left { border-right: 1px solid #e5e7eb; }
+.center { position: relative; }
+.right { border-left: 1px solid #e5e7eb; padding: 10px; overflow: auto; }
+
+.sidebar { padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+.pal-item { display:flex; align-items:center; gap:8px; padding:6px 8px; border:1px dashed #cbd5e1; border-radius:8px; cursor:grab; user-select:none; }
+.pal-item:hover { background:#f1f5f9; }
+
+.node-card { background: #fff; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 12px; min-width: 140px; min-height: 60px; }
+.node-title { font-weight: 700; font-size: 13px; }
+.node-card { position: relative; }           /* handle konumları için şart */
+.react-flow__handle { width: 14px; height: 14px; pointer-events: all; } /* yakalamayı büyüt */
+.node-sub { color: #6b7280; font-size: 12px; }
+.shadow-0 { box-shadow: none; }
+.shadow-1 { box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.shadow-2 { box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+.shadow-3 { box-shadow: 0 14px 28px rgba(0,0,0,0.18); }
+
+.btn { height: 30px; padding: 0 10px; border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; cursor: pointer; }
+.btn:hover { background:#f8fafc; }
+.btn.primary { background:#0ea5e9; border-color:#0284c7; color:#fff; }
+
+.hint { color: #6b7280; font-size: 12px; }
+
+.prop-grid { display: grid; grid-template-columns: 130px 1fr; gap: 6px 10px; }
+.prop-grid input, .prop-grid select { height: 30px; padding: 0 8px; border: 1px solid #d1d5db; border-radius: 8px; }
+
+.switch { position: relative; width: 42px; height: 22px; display:inline-block; }
+.switch input { display:none; }
+.switch span { position:absolute; inset:0; background:#e5e7eb; border-radius:9999px; }
+.switch span::after { content:''; position:absolute; top:3px; left:3px; width:16px; height:16px; background:#fff; border-radius:9999px; transition:all .2s; box-shadow:0 1px 3px rgba(0,0,0,0.2)}
+.switch input:checked + span { background:#60a5fa; }
+.switch input:checked + span::after { left:23px; }
+
+.floating-tools { position:absolute; bottom:12px; left:12px; display:flex; gap:8px; }
+
+.form-overlay { position:absolute; top:8px; left:8px; right:8px; background:rgba(255,255,255,0.85); border:1px solid #e5e7eb; border-radius:10px; padding:8px 12px; pointer-events:none; }
+.form-overlay .form-row { display:flex; gap:16px; font-size:12px; color:#111827; margin-top:4px; }
+.form-overlay .title { font-weight:800; font-size:14px; margin-bottom:2px; }
+
+/* React Flow ufak dokunuşlar */
+.react-flow__attribution { display:none; }
+.react-flow__handle { width: 14px; height: 14px; pointer-events: all; }
+/* ÖNEMLİ: daha önce eklediğimiz .react-flow__handle-right/left ... “top/left/right:auto !important” OVERRIDE’INI KALDIRDIK. */
+.react-flow__resize-control.handle { background:#2563eb; border-radius:2px; }

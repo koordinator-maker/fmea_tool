@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.log
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env

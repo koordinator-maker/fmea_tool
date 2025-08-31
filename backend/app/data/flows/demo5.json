@@ -1,0 +1,855 @@
+{
+  "nodes": [
+    {
+      "id": "zAyKh871nzqu6tk65qbGQ",
+      "type": "shapeNode",
+      "position": {
+        "x": 405,
+        "y": 735
+      },
+      "data": {
+        "shape": "square",
+        "label": "SQUARE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 170,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 405,
+        "y": 735
+      },
+      "dragging": false
+    },
+    {
+      "id": "_A3YsUvpTi-Z41p1sUVON",
+      "type": "processNode",
+      "position": {
+        "x": 0,
+        "y": 510
+      },
+      "data": {
+        "opNo": "_A3Y",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 0,
+        "y": 510
+      },
+      "dragging": false
+    },
+    {
+      "id": "rXWfVj6ioY5o6GOo-q8fQ",
+      "type": "shapeNode",
+      "position": {
+        "x": -30,
+        "y": 660
+      },
+      "data": {
+        "shape": "square",
+        "label": "SQUARE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 170,
+      "height": 111,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -30,
+        "y": 660
+      },
+      "dragging": false
+    },
+    {
+      "id": "OapIpPPZ_UDSWMjc61GCe",
+      "type": "iconNode",
+      "position": {
+        "x": 225,
+        "y": 390
+      },
+      "data": {
+        "icon": "warehouse",
+        "label": "warehouse",
+        "color": "#374151",
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 225,
+        "y": 390
+      },
+      "dragging": false
+    },
+    {
+      "id": "ZSwh5ToHEcimL5GZfUUWe",
+      "type": "shapeNode",
+      "position": {
+        "x": 135,
+        "y": 855
+      },
+      "data": {
+        "shape": "triangle",
+        "label": "TRIANGLE",
+        "color": "#4b5563",
+        "borderRadius": 12,
+        "shadow": 1
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 106,
+      "height": 98,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 135,
+        "y": 855
+      },
+      "dragging": false,
+      "style": {
+        "width": 106,
+        "height": 98
+      },
+      "resizing": false
+    },
+    {
+      "id": "0gUfJ6PS9jTRziCGEVx9a",
+      "type": "processNode",
+      "position": {
+        "x": 315,
+        "y": 525
+      },
+      "data": {
+        "opNo": "0GUF",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 97,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 315,
+        "y": 525
+      },
+      "dragging": false,
+      "style": {
+        "width": 166,
+        "height": 97
+      },
+      "resizing": false
+    },
+    {
+      "id": "tD6vyfdHgDLxUEP7MqLcr",
+      "type": "processNode",
+      "position": {
+        "x": 615,
+        "y": 405
+      },
+      "data": {
+        "opNo": "TD6V",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 615,
+        "y": 405
+      },
+      "dragging": false
+    },
+    {
+      "id": "F1Onr4fND7htyyle7O74z",
+      "type": "processNode",
+      "position": {
+        "x": 915,
+        "y": 345
+      },
+      "data": {
+        "opNo": "F1ON",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 915,
+        "y": 345
+      },
+      "dragging": false
+    },
+    {
+      "id": "Duk6-1682M0h_I0SONsS7",
+      "type": "processNode",
+      "position": {
+        "x": 870,
+        "y": 165
+      },
+      "data": {
+        "opNo": "DUK6",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 870,
+        "y": 165
+      },
+      "dragging": false
+    },
+    {
+      "id": "Yezmk9Yug9rnH5gxKEGPc",
+      "type": "processNode",
+      "position": {
+        "x": 45,
+        "y": 105
+      },
+      "data": {
+        "opNo": "YEZM",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 45,
+        "y": 105
+      },
+      "dragging": false
+    },
+    {
+      "id": "mN0B8KhlOEtTy7ptcww3X",
+      "type": "processNode",
+      "position": {
+        "x": 510,
+        "y": 180
+      },
+      "data": {
+        "opNo": "MN0B",
+        "name": "Yeni Proses",
+        "station": "İstasyon",
+        "special": "None",
+        "borderRadius": 14,
+        "shadow": 2
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "width": 166,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 510,
+        "y": 180
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "smoothstep",
+      "source": "zAyKh871nzqu6tk65qbGQ",
+      "target": "9mHnhvesR_V5rp4zmZEFs",
+      "id": "Gb5X4hiD2Rv9FHI5JlBxy",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "9mHnhvesR_V5rp4zmZEFs",
+      "target": "zAyKh871nzqu6tk65qbGQ",
+      "id": "LKlM_CA72z6x-DZHp8XYN",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "rXWfVj6ioY5o6GOo-q8fQ",
+      "id": "LOsfFE7ZJ8ZYYthYiNmKW",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      },
+      "selected": false
+    },
+    {
+      "type": "smoothstep",
+      "source": "OapIpPPZ_UDSWMjc61GCe",
+      "target": "_A3YsUvpTi-Z41p1sUVON",
+      "id": "t0w1N3XOxbVwVkJ-olaJZ",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "9mHnhvesR_V5rp4zmZEFs",
+      "id": "P6zmkzl7xqiEc27401-5o",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "ZSwh5ToHEcimL5GZfUUWe",
+      "target": "ZSwh5ToHEcimL5GZfUUWe",
+      "id": "5YLy_JO54SalgMmcX5o0z",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "L",
+      "target": "R",
+      "sourceHandle": "R",
+      "targetHandle": "L",
+      "id": "bUgZ8bCfbd47G0hAwAmw8",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "0gUfJ6PS9jTRziCGEVx9a",
+      "target": "tD6vyfdHgDLxUEP7MqLcr",
+      "sourceHandle": "R",
+      "targetHandle": "L",
+      "id": "YIVQ9VTmJv6INGXMozdN4",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "0gUfJ6PS9jTRziCGEVx9a",
+      "target": "zAyKh871nzqu6tk65qbGQ",
+      "sourceHandle": "B",
+      "targetHandle": "T",
+      "id": "fOBr_frJcxc9IMJhE350N",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "zAyKh871nzqu6tk65qbGQ",
+      "target": "tD6vyfdHgDLxUEP7MqLcr",
+      "sourceHandle": "R",
+      "targetHandle": "B",
+      "id": "QShySArbmJU2JLKolffN6",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "L",
+      "target": "B",
+      "sourceHandle": "B",
+      "targetHandle": "L",
+      "id": "9R1hg1G8oaKQXDdoST4xV",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "rXWfVj6ioY5o6GOo-q8fQ",
+      "target": "zAyKh871nzqu6tk65qbGQ",
+      "sourceHandle": "R",
+      "targetHandle": "L",
+      "id": "DBS-vi6tnh82rTt2qeVNf",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "T",
+      "target": "B",
+      "sourceHandle": "B",
+      "targetHandle": "T",
+      "id": "BHGPKF_PJlnM-6moBYqBQ",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "T",
+      "target": "L",
+      "sourceHandle": "L",
+      "targetHandle": "T",
+      "id": "B-qqkLjrDWRaVF_HD-f6g",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "F1Onr4fND7htyyle7O74z",
+      "target": "0gUfJ6PS9jTRziCGEVx9a",
+      "sourceHandle": "B",
+      "targetHandle": "T",
+      "id": "YSdoR_1I06vdE8s-kjOQx",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "tD6vyfdHgDLxUEP7MqLcr",
+      "target": "F1Onr4fND7htyyle7O74z",
+      "sourceHandle": "R",
+      "targetHandle": "R",
+      "id": "ioxs0qw1szXeD0Fy6fxLO",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "L",
+      "target": "L",
+      "sourceHandle": "L",
+      "targetHandle": "L",
+      "id": "y5HZDxICnRHUiQpNjyP2n",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "Duk6-1682M0h_I0SONsS7",
+      "target": "F1Onr4fND7htyyle7O74z",
+      "sourceHandle": "R",
+      "targetHandle": "L",
+      "id": "TPOcZOyDbb8kv5QbYGJJX",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "rXWfVj6ioY5o6GOo-q8fQ",
+      "sourceHandle": "B",
+      "targetHandle": "T",
+      "id": "ift02IZ6sAxugeaQ_EDCo",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "_A3YsUvpTi-Z41p1sUVON",
+      "target": "0gUfJ6PS9jTRziCGEVx9a",
+      "sourceHandle": "R",
+      "targetHandle": "L",
+      "id": "nNNNdheYQvNsI4toh-xpV",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "F1Onr4fND7htyyle7O74z",
+      "target": "tD6vyfdHgDLxUEP7MqLcr",
+      "sourceHandle": "B",
+      "targetHandle": "T",
+      "id": "QdXwRV1_dbCD1qJfLa8r1",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "L-tgt",
+      "target": "R-src",
+      "sourceHandle": "R-src",
+      "targetHandle": "L-tgt",
+      "id": "91G8Q0eCNaTKcKwZKZ8Ge",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "R-tgt",
+      "target": "L-tgt",
+      "sourceHandle": "L-tgt",
+      "targetHandle": "R-tgt",
+      "id": "uNADPOykJlvVD4OXmfqty",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "L-tgt",
+      "target": "R-tgt",
+      "sourceHandle": "R-tgt",
+      "targetHandle": "L-tgt",
+      "id": "5LT1uqljvtF_viluD_N2k",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "R-tgt",
+      "target": "L-src",
+      "sourceHandle": "L-src",
+      "targetHandle": "R-tgt",
+      "id": "XWh5NN_T22GzEAogLw-VF",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "T-tgt",
+      "target": "B-tgt",
+      "sourceHandle": "B-tgt",
+      "targetHandle": "T-tgt",
+      "id": "ySWvV0amFAMwvJy4u88tQ",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "Yezmk9Yug9rnH5gxKEGPc",
+      "target": "mN0B8KhlOEtTy7ptcww3X",
+      "sourceHandle": "R-src",
+      "targetHandle": "L-tgt",
+      "id": "G3-kwVf-6mTXi1Vf11gve",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "B-tgt",
+      "target": "T-src",
+      "sourceHandle": "T-src",
+      "targetHandle": "B-tgt",
+      "id": "F2pU5H3iwacvr35VJiUT7",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "OapIpPPZ_UDSWMjc61GCe",
+      "target": "Yezmk9Yug9rnH5gxKEGPc",
+      "sourceHandle": "T-src",
+      "targetHandle": "B-tgt",
+      "id": "HL0-uAymuDON-t-vLrbdS",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "mN0B8KhlOEtTy7ptcww3X",
+      "target": "Yezmk9Yug9rnH5gxKEGPc",
+      "sourceHandle": "L-src",
+      "targetHandle": "R-tgt",
+      "id": "H4zY7k48_qLEIJMC2QxNp",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      }
+    },
+    {
+      "type": "smoothstep",
+      "source": "Duk6-1682M0h_I0SONsS7",
+      "target": "mN0B8KhlOEtTy7ptcww3X",
+      "sourceHandle": "T-src",
+      "targetHandle": "B-tgt",
+      "id": "9kXQJAJt4hNpzazA3UK-0",
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#111827",
+        "width": 14,
+        "height": 14
+      },
+      "selected": false
+    }
+  ],
+  "meta": {
+    "formTitle": "İŞ AKIŞ ŞEMASI",
+    "partNo": "",
+    "formNo": "",
+    "docNo": "",
+    "publishDate": "",
+    "revDate": "",
+    "revNo": "",
+    "showForm": true
+  }
+}
